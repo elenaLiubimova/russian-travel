@@ -7,4 +7,4 @@
 * "резиновая" верстка;
 * адаптивная верстка;
 * организация файловой структуры проекта по правилам Nested БЭМ.
-[Ссылка:] (https://elenaliubimova.github.io/russian-travel/)
+##[Ссылка:] (https://elenaliubimova.github.io/russian-travel/)
