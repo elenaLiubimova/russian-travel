@@ -1,0 +1,29 @@
+.trains-to-baykal__subtitle{
+  max-width: 360px;
+  margin: 32px 0 0;
+
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 700px) {
+  .trains-to-baykal__subtitle{
+    max-width: 400px;
+    margin: 16px 0;
+  
+    font-size: 18px;
+    line-height: 1.14;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .trains-to-baykal__subtitle{
+    max-width: 288px;
+  
+    font-size: 14px;
+  }
+}

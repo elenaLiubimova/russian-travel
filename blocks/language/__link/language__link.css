@@ -1,0 +1,9 @@
+.language__link {
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: ease-out 0.2s;
+}
+
+.language__link:hover {
+  opacity: .8;
+}

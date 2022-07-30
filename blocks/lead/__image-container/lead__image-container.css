@@ -1,0 +1,20 @@
+.lead__image-container {
+  width: 76.875%;
+  height: auto;
+  height: 100%;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1279px) {
+  .lead__image-container {
+    width: 90.625%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead__image-container {
+    width: 100%;
+  }
+}

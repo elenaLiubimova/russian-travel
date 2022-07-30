@@ -1,0 +1,35 @@
+.cards__title {
+  width: 47.41379310344828%;
+  margin: 0;
+
+  font-weight: 900;
+  font-size: 72px;
+  line-height: calc(76px/72px);
+}
+
+@media screen and (max-width: 1023px) {
+  .cards__title {
+    width: 47.22222222%;
+    margin: 0;
+  
+    font-weight: 900;
+    font-size: 42px;
+    line-height: calc(46px/42px);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .cards__title {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cards__title {
+    width: 90%;
+    margin: 0 calc((100% - 90%)/2) 0;
+  
+    font-size: 32px;
+    line-height: calc(35px/32px);
+  }
+}
