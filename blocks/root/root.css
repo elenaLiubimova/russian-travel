@@ -6,31 +6,31 @@
 
 @font-face {
   font-family: 'Inter';
-  src: url(../../fonts/Inter/Inter-Regular.woff2);
+  src: url(../../fonts/inter/Inter-Regular.woff2);
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'Inter';
-  src: url(../../fonts/Inter/Inter-Bold.woff);
+  src: url(../../fonts/inter/Inter-Bold.woff);
   font-weight: 700;
 }
 
 @font-face {
   font-family: 'Inter';
-  src: url(../../fonts/Inter/Inter-Bold.woff2);
+  src: url(../../fonts/inter/Inter-Bold.woff2);
   font-weight: 700;
 }
 
 @font-face {
   font-family: 'Inter';
-  src: url(../../fonts/Inter/Inter-Black.woff);
+  src: url(../../fonts/inter/Inter-Black.woff);
   font-weight: 900;
 }
 
 @font-face {
   font-family: 'Inter';
-  src: url(../../fonts/Inter/Inter-Black.woff2);
+  src: url(../../fonts/inter/Inter-Black.woff2);
   font-weight: 900;
 }
 
