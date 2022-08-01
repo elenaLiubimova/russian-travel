@@ -1,32 +1,22 @@
 .cards__website {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
   margin: 0;
-  width: 49.18699187%;
-
   color: #AAAAAA;
   font-weight: 400;
   font-size: 12px;
   line-height: 1;
   text-decoration: none;
-}
-
-@media screen and (max-width: 1023px) {
-  .cards__website {
-    width: 48.88888889%;
-  }
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 700px) {
   .cards__website {
-    margin: 20px 0 0;
+    width: 100%;
+    margin: 0 auto;
   }
 }
 
 @media screen and (max-width: 425px) {
   .cards__website {
     width: 90%;
-    margin: 32px auto 0;
   }
 }

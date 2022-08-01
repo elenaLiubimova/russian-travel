@@ -6,6 +6,12 @@
   width: 92.5%;
 }
 
+@media screen and (max-width: 1279px) {
+  .footer__container {
+    width: 90.625%;
+  }
+}
+
 @media screen and (max-width: 1023px) {
   .footer__container {
     width: 93.75%;
@@ -17,6 +23,6 @@
   .footer__container {
     flex-direction: column;
     width: 90%;
-    padding: 70px calc((100% - 90%)/2) 24px;
+    padding: 64px calc((100% - 90%)/2) 24px;
   }
 }

@@ -1,20 +1,67 @@
 .trains-to-baykal__overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(42, 44, 47, .3);
   width: 100%;
+  min-height: 740px;
   height: 100%;
+  background-image: url(../../../images/trains_to_baykal.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 
   text-decoration: none;
+}
 
+.trains-to-baykal__overlay::before {
+  position: absolute;
+  
+  content: " ";
+  background-color: rgba(42, 44, 47, .3);
+  width: 92.5%;
+  min-height: 740px;
+  height: 100%;
+  
   transition: ease-out 0.2s;
 }
 
-.trains-to-baykal__overlay:hover {
+.trains-to-baykal__overlay:hover::before {
   background-color: rgba(42, 44, 47, .8);
+}
+
+@media screen and (max-width: 1279px) {
+  .trains-to-baykal__overlay {
+    min-height: 640px;
+  }
+  .trains-to-baykal__overlay::before {
+    min-height: 640px;
+    width: 100%;
+  } 
+}
+
+@media screen and (max-width: 1023px) {
+  .trains-to-baykal__overlay {
+    min-height: 480px;
+  }
+  .trains-to-baykal__overlay::before {
+    min-height: 480px;
+  } 
+}
+
+@media screen and (max-width: 700px) {
+  .trains-to-baykal__overlay {
+    min-height: 437px;
+  }
+  .trains-to-baykal__overlay::before {
+    min-height: 437px;
+  } 
+}
+
+@media screen and (max-width: 425px) {
+  .trains-to-baykal__overlay {
+    min-height: 200px;
+  }
+  .trains-to-baykal__overlay::before {
+    min-height: 200px;
+  } 
 }

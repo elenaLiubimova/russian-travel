@@ -1,4 +1,6 @@
 .trains-to-baykal__title {
+  z-index: 1;
+  
   max-width: 560px;
   margin: 0;
   
@@ -21,7 +23,7 @@
 
 @media screen and (max-width: 425px) {
   .trains-to-baykal__title {
-    max-width: 255px;
+    max-width: 288px;
     
     font-size: 32px;
     line-height: calc(35/32);
