@@ -1,7 +1,5 @@
 .lead__image-container {
   width: 76.875%;
-  height: auto;
-  height: 100%;
   margin: 0 auto;
   object-fit: cover;
 }

@@ -1,34 +1,11 @@
 .trains-to-baykal {
-  position: relative;
-
   width: 92.5%;
-  min-height: 740px;
-  height: 100%;
   padding: 0 3.75% 0;
 }
 
 @media screen and (max-width: 1279px) {
   .trains-to-baykal {
     width: 100%;
-    min-height: 640px;
     padding: 0;
   } 
-}
-
-@media screen and (max-width: 1023px) {
-  .trains-to-baykal {
-    min-height: 480px;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .trains-to-baykal {
-    min-height: 437px;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .trains-to-baykal {
-    min-height: 200px;
-  }
 }
